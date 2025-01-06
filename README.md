@@ -1,18 +1,16 @@
-# Java Essential Training
+# Design Patterns with Java
 
-## Concepts
+## Creational patterns
 
-### POO
+Provide object creation mechanisms that increase flexibility and reuse of existing code.
 
-#### [Inheritance](./src/inheritance)
-#### [Abstraction](./src/abstraction)
-#### [Polymorphism](./src/polymorphism)
+## Structural patterns
 
-### [Collections](./src/collections)
-### [Interfaces](./src/interfaces)
-### [Memory management](./src/memory_management)
+Explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
 
----
+## Behavioral patterns
+
+Take care of effective communication and the assignment of responsibilities between objects.
 
 ## Stay in touch
 
