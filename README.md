@@ -34,7 +34,14 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 - Increased clarity in the object creation process
 - Alignment with SOLID principles
 
-### Builder
+### [Builder](https://refactoring.guru/design-patterns/builder)
+
+- Allows to build complex objects step by step.
+- Produce different types and representations of an object using the same construction code.
+- Useful when we need to build a complex object with many parts, and we want the construction process to be independent of the parts that compose it.
+
+[View code](./src/creational/builder)
+
 ### Factory Method
 ### Abstract Factory
 ### Prototype
