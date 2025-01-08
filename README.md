@@ -38,11 +38,18 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 - Allows to build complex objects step by step.
 - Produce different types and representations of an object using the same construction code.
-- Useful when we need to build a complex object with many parts, and we want the construction process to be independent of the parts that compose it.
+- ***Useful when*** we need to build a complex object with many parts, and we want the construction process to be independent of the parts that compose it.
 
 [View code](./src/creational/builder)
 
-### Factory Method
+### [Factory Method](https://refactoring.guru/design-patterns/factory-method)
+
+- Allows you to create objects without specifying the exact class of the object to be created.
+- Delegate the creation of objects to subclasses or methods that encapsulate this logic.
+- ***Useful when*** a class cannot anticipate the type of objects to be created.
+
+[View code](./src/creational/factorymethod)
+
 ### Abstract Factory
 ### Prototype
 ### Immutability
