@@ -1,4 +1,4 @@
-package creational.builder;
+package creational.builder.task;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -54,5 +54,11 @@ public class QueryBuilder {
                 .limit(100)
                 .execute();
         System.out.println(query);
+
+        /*
+        Result:
+
+        SELECT id, name, email from users WHERE age > 18 AND country = 'EC' ORDER BY name ASC, ORDER BY age DESC LIMIT 100;
+        */
     }
 }

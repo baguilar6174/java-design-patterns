@@ -1,4 +1,4 @@
-package creational.builder;
+package creational.builder.pattern;
 
 public class Computer {
     public String cpu = "Not defined";

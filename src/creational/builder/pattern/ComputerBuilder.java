@@ -1,4 +1,4 @@
-package creational.builder;
+package creational.builder.pattern;
 
 /**
  * A builder class for constructing instances of the {@link Computer} class.
@@ -78,5 +78,12 @@ public class ComputerBuilder {
 
         System.out.println("Basic Computer");
         basic.displayConfiguration();
+
+        /*
+        Result:
+
+        Basic Computer
+        CPU Intel Core 2 DUO, RAM: 4 GB, STORAGE: 256 GB, GPU: Not defined
+        */
     }
 }
