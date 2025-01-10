@@ -50,7 +50,14 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 [View code](./src/creational/factorymethod)
 
-### Abstract Factory
+### [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
+
+- Allows to create families of related objects without specifying specific classes.
+- Instead of creating individual objects directly, we create factories that produce a set of related objects.
+- ***Useful when*** you need to create objects that are part of a family and you want to make sure that these objects complement each other.
+
+[View code](./src/creational/abstractfactory)
+
 ### Prototype
 ### Immutability
 ### Singleton
