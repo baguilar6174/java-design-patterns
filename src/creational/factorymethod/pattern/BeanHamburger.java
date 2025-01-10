@@ -1,6 +1,9 @@
 package creational.factorymethod.pattern;
 
 /**
+ * ----------
+ * Step 4
+ * ----------
  * Concrete implementation of Hamburger representing a bean hamburger.
  */
 public class BeanHamburger implements Hamburger {

@@ -1,6 +1,9 @@
 package creational.builder.pattern;
 
 /**
+ * ----------
+ * Step 2
+ * ----------
  * A builder class for constructing instances of the {@link Computer} class.
  * This class follows the Builder Design Pattern to allow flexible and readable object creation.
  */

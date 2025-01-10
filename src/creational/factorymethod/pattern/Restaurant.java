@@ -1,6 +1,9 @@
 package creational.factorymethod.pattern;
 
 /**
+ * ----------
+ * Step 5
+ * ----------
  * Abstract class representing a Restaurant.
  * This class defines the Factory Method Pattern by providing an abstract method `createHamburger`
  * that must be implemented by concrete restaurants to create specific types of hamburgers.

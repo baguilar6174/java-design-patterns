@@ -1,6 +1,9 @@
 package creational.factorymethod.pattern;
 
 /**
+ * ----------
+ * Step 6
+ * ----------
  * Concrete implementation of Restaurant specializing in chicken hamburgers.
  * Implements the factory method to create ChickenHamburger instances.
  */

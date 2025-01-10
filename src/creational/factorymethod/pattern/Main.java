@@ -2,7 +2,15 @@ package creational.factorymethod.pattern;
 
 import java.util.Scanner;
 
+/**
+ * ----------
+ * Step 9
+ * ----------
+ * Utility class to demonstrate create a restaurant dynamically.
+ * This class showcases the Factory Method Pattern in action.
+ */
 public class Main {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,5 +27,10 @@ public class Main {
         };
 
         restaurant.orderHamburger();
+
+        /*
+        * Result
+        * Preparing bean | chicken | beef burger...
+        * */
     }
 }

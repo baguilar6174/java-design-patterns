@@ -1,5 +1,12 @@
 package creational.builder.pattern;
 
+/**
+ * ----------
+ * Step 3
+ * ----------
+ * Utility class to demonstrate create a computer with different features.
+ * This class showcases the Builder Pattern in action.
+ */
 public class Main {
 
     public static void main(String[] args) {

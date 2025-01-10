@@ -29,11 +29,23 @@ public class Main {
         // Order food using the fast food factory
         order(fastFoodRestaurant);
 
+        /*
+        * Result
+        * Preparing beef hamburger...
+        * Pouring a glass of Coca Cola...
+        * */
+
         System.out.println("-----------------------------------------");
 
         // Create a factory for healthy food
         RestaurantFactory healthyRestaurant = new HealthyRestaurantFactory();
         // Order food using the healthy restaurant factory
         order(healthyRestaurant);
+
+        /*
+         * Result
+         * Preparing chicken hamburger...
+         * Pouring a glass of water...
+         * */
     }
 }

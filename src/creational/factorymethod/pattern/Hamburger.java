@@ -1,6 +1,9 @@
 package creational.factorymethod.pattern;
 
 /**
+ * ----------
+ * Step 1
+ * ----------
  * Interface representing a generic Hamburger.
  * All specific types of hamburgers should implement this interface.
  */

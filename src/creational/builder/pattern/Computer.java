@@ -1,5 +1,10 @@
 package creational.builder.pattern;
 
+/**
+ * ----------
+ * Step 1
+ * ----------
+ */
 public class Computer {
     public String cpu = "Not defined";
     public String ram = "Not defined";
