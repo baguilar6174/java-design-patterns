@@ -58,7 +58,13 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 [View code](./src/creational/abstractfactory)
 
-### Prototype
+### [Prototype](https://refactoring.guru/design-patterns/prototype)
+
+- Allows to copy existing objects without making the code dependent on their classes.
+- ***Useful when*** you need to duplicate content.
+
+[View code](./src/creational/prototype)
+
 ### Immutability
 ### Singleton
 ### Factory Function
