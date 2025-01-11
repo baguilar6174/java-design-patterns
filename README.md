@@ -65,7 +65,7 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 [View code](./src/creational/prototype)
 
-### Immutability
+### Immutability with copy
 
 - Although immutability is a good practice, it is not always possible.
 - In these cases you can make a copy of the object and modify the copy.
