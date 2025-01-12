@@ -73,7 +73,14 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 [View code](./src/creational/immutabilitycopy)
 
-### Singleton
+### [Singleton](https://refactoring.guru/design-patterns/singleton)
+
+- Ensures that a class has only a single instance and provides an entry point to that instance.
+- ***Useful when*** you need to control access to a unique class instance.
+- Common examples are database object or configuration object.
+
+[View code](./src/creational/sigleton)
+
 ### Factory Function
 
 ---
