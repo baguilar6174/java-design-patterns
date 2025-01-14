@@ -83,6 +83,11 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 ### Factory Function
 
+- Allows to create objects or functions dynamically
+- ***Useful when*** we need to create objects or functions in runtime
+
+[View code](./src/creational/factoryfunction)
+
 ---
 
 ## Structural patterns
