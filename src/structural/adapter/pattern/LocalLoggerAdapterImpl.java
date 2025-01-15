@@ -10,7 +10,7 @@ package structural.adapter.pattern;
  */
 public class LocalLoggerAdapterImpl implements LoggerAdapter {
     public String file;
-    public LocalLogger logger;
+    private final LocalLogger logger;
 
     /**
      * Initializes the adapter with the specified file.

@@ -12,7 +12,7 @@ public class ExternalLoggerAdapterImpl implements LoggerAdapter {
 
     public String file;
     // Creates an instance of ExternalLogger to delegate logging tasks.
-    public ExternalLogger logger = ExternalLogger.getInstance();
+    private final ExternalLogger logger = ExternalLogger.getInstance();
 
     public ExternalLoggerAdapterImpl(String file) {
         this.file = file;

@@ -7,7 +7,7 @@ package structural.adapter.pattern;
 public class Main {
 
     public static void main(String[] args) {
-        LocalLoggerAdapterImpl localLogger = new LocalLoggerAdapterImpl("file-local.txt");
+        LoggerAdapter localLogger = new LocalLoggerAdapterImpl("file-local.txt");
 
         localLogger.writeLog("Normal log");
         /*
@@ -32,7 +32,7 @@ public class Main {
 
         System.out.println("----------------------------");
 
-        ExternalLoggerAdapterImpl externalLogger = new ExternalLoggerAdapterImpl("file-external.txt");
+        LoggerAdapter externalLogger = new ExternalLoggerAdapterImpl("file-external.txt");
 
         externalLogger.writeLog("Normal log");
         /*
