@@ -21,7 +21,7 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 - How to create objects efficiently?
 - Hiding the instantiation logic.
-- Reducing coupling between cl
+- Reducing coupling between classes
 
 **Objectives:**
 
@@ -94,7 +94,36 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 Explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
 
-### Adapter
+Here is a more complete description of structural design patterns with the missing details filled in:
+
+**Solve problems related to:**
+
+- Organizing objects and classes to form larger, well-structured systems.
+- Managing dependencies between objects.
+- Ensuring that changes in one part of a system minimally affect other parts.
+- Supporting dynamic addition or modification of system behavior.
+
+**Objectives:**
+
+- Simplify the design of complex systems by focusing on the relationships between objects and classes.
+- Enhance code maintainability and readability.
+- Promote reuse by providing standard solutions for common structural challenges.
+- Support scalability by creating flexible and extensible structures.
+
+**Benefits:**
+
+- Improved organization and clarity of the system’s architecture.
+- Reduced coupling between system components.
+- Greater flexibility and adaptability to changes in requirements.
+- Increased reuse of existing code by combining objects in new ways.
+
+### [Adapter](https://refactoring.guru/design-patterns/adapter)
+
+- Allows objects with incompatible interfaces to work together.
+- ***Useful when*** using external libraries.
+
+[View code](./src/structural/adapter)
+
 ### Bridge
 ### Composite
 ### Decorator
