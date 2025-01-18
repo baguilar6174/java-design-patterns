@@ -5,7 +5,7 @@ package creational.sigleton.pattern;
  * Step 1
  * ----------
  * Represents a singleton implementation of a database connection.
- * The Singleton pattern ensures that there is only one instance of
+ * The Singleton task ensures that there is only one instance of
  * the `DatabaseConnection` class in the application. It provides a
  * global point of access to the instance.
  */

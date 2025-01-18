@@ -124,7 +124,15 @@ Here is a more complete description of structural design patterns with the missi
 
 [View code](./src/structural/adapter)
 
-### Bridge
+### [Bridge](https://refactoring.guru/design-patterns/bridge)
+
+- It allows decoupling an abstraction from its implementation, so that both can vary independently.
+- ***Useful when*** you have several implementations of an abstraction.
+- It can be used to separate business logic from presentation.
+- Can be used to separate the logic from the user interface.
+
+[View code](./src/structural/bridge)
+
 ### Composite
 ### Decorator
 ### Facade
