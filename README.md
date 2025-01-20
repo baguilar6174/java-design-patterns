@@ -133,7 +133,13 @@ Here is a more complete description of structural design patterns with the missi
 
 [View code](./src/structural/bridge)
 
-### Composite
+### [Composite](https://refactoring.guru/design-patterns/composite)
+
+- Allows to compose objects in tree structures to represent hierarchies.
+- ***Useful when*** you need to treat individual objects and their compositions in a uniform way.
+
+[View code](./src/structural/composite)
+
 ### Decorator
 ### Facade
 ### Flyweight
