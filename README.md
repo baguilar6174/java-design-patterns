@@ -147,7 +147,13 @@ Here is a more complete description of structural design patterns with the missi
 
 [View code](./src/structural/decorator)
 
-### Facade
+### [Facade](https://refactoring.guru/design-patterns/facade)
+
+- Provides a unified interface for a set of interfaces in a subsystem.
+- Defines a higher level interface that makes the system easier to use.
+
+[View code](./src/structural/facade)
+
 ### Flyweight
 ### Proxy
 
