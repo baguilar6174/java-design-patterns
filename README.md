@@ -140,7 +140,13 @@ Here is a more complete description of structural design patterns with the missi
 
 [View code](./src/structural/composite)
 
-### Decorator
+### [Decorator](https://refactoring.guru/design-patterns/decorator)
+
+- It allows adding functionalities to objects by placing these objects inside other special encapsulated objects that contain these functionalities.
+- ***Useful when*** you need to add functionalities to objects in a dynamic and flexible way.
+
+[View code](./src/structural/decorator)
+
 ### Facade
 ### Flyweight
 ### Proxy
