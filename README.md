@@ -154,7 +154,13 @@ Here is a more complete description of structural design patterns with the missi
 
 [View code](./src/structural/facade)
 
-### Flyweight
+### [Flyweight](https://refactoring.guru/design-patterns/flyweight)
+
+- Allows the use of shared objects to efficiently support large numbers of objects.
+- ***Useful when*** we have a large number of objects and want to reduce memory usage.
+
+[View code](./src/structural/flyweight)
+
 ### Proxy
 
 ---
