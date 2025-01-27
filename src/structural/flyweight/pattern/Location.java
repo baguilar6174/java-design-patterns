@@ -5,7 +5,7 @@ package structural.flyweight.pattern;
  * Step 1
  * ----------
  * Represents a location on a map.
- * Flyweight pattern interface to define behavior for displaying locations.
+ * Flyweight task interface to define behavior for displaying locations.
  */
 public interface Location {
 

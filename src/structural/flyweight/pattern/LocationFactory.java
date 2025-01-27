@@ -8,7 +8,7 @@ import java.util.Map;
  * Step 3
  * ----------
  * Factory class to manage and create LocationIcon instances.
- * Implements the Flyweight pattern by reusing instances of LocationIcon.
+ * Implements the Flyweight task by reusing instances of LocationIcon.
  */
 public class LocationFactory {
     private final Map<String, LocationIcon> icons = new HashMap<>(); // Cache for storing created icons

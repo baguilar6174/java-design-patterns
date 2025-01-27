@@ -161,7 +161,12 @@ Here is a more complete description of structural design patterns with the missi
 
 [View code](./src/structural/flyweight)
 
-### Proxy
+### [Proxy](https://refactoring.guru/design-patterns/proxy)
+
+- Allows controlling access to an object, i.e. an object is created that acts as an intermediary between the client and the real object.It allows you to control access to an object, in other words, you create an object that acts as an intermediary between the client and the actual object.
+- ***Useful when*** we need to control access to an object, for example, to verify if the client has permissions to access methods or properties.
+
+[View code](./src/structural/proxy)
 
 ---
 

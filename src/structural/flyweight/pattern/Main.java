@@ -6,7 +6,7 @@ import java.util.List;
  * ----------
  * Step 5
  * ----------
- * Demonstrates the Flyweight pattern with locations and icons.
+ * Demonstrates the Flyweight task with locations and icons.
  */
 public class Main {
     public static void main(String[] args) {
