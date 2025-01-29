@@ -174,7 +174,34 @@ Here is a more complete description of structural design patterns with the missi
 
 Take care of effective communication and the assignment of responsibilities between objects.
 
-### Chain Responsibility
+**Solve problems related to:**
+
+- **Complex interactions** between objects without making them tightly coupled.
+- **Encapsulating behaviors** that can change at runtime.
+- **Efficient object collaboration** while maintaining flexibility.
+- **Avoiding hardcoded logic** for executing different behaviors.
+
+**Objectives:**
+
+- **Improve object communication** while keeping them loosely coupled.
+- **Encapsulate behavior** and allow objects to change their behavior dynamically.
+- **Increase flexibility** by making it easier to extend functionality without modifying existing code.
+- **Follow the Open/Closed Principle** by enabling new behaviors without altering existing classes.
+
+**Benefits:**
+
+- **Better maintainability** by reducing dependencies between objects.
+- **Scalability** by allowing new behaviors to be introduced easily.
+- **Code reusability** by separating behavior from the main logic.
+- **Enhances flexibility** in how objects interact without requiring modifications.
+
+### [Chain Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
+
+- Allows requests to be passed along a chain of handlers.
+- ***Useful when*** you need to process data in different ways, but you do not know in advance what kind of processing you need or in what order. But you know that you need to process in a sequence.
+
+[View code](./src/behavioral/chainresponsibility)
+
 ### Command
 ### Iterator
 ### Mediator
