@@ -202,7 +202,13 @@ Take care of effective communication and the assignment of responsibilities betw
 
 [View code](./src/behavioral/chainresponsibility)
 
-### Command
+### [Command](https://refactoring.guru/design-patterns/command)
+
+- Encapsulates a request as an object, allows to parameterize other objects with different requests, queue requests, log requests and supports undoable operations.
+- ***Useful when*** you need to decouple the object that invokes the operation from the object that knows how to perform it.
+
+[View code](./src/behavioral/command)
+
 ### Iterator
 ### Mediator
 ### Memento
