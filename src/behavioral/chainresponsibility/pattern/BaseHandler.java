@@ -1,6 +1,9 @@
 package behavioral.chainresponsibility.pattern;
 
 /**
+ * ----------
+ * Step 2
+ * ----------
  * Abstract base class for handlers, providing common functionality for setting and invoking the next handler.
  */
 public abstract class BaseHandler implements Handler {

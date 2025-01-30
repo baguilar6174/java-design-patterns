@@ -1,6 +1,9 @@
 package behavioral.chainresponsibility.pattern;
 
 /**
+ * ----------
+ * Step 1
+ * ----------
  * The Handler interface represents a contract for handling requests.
  * It defines a method to set the next handler in the chain and a method to handle requests.
  */

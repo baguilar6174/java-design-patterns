@@ -1,6 +1,9 @@
 package behavioral.chainresponsibility.pattern;
 
 /**
+ * ----------
+ * Step 6
+ * ----------
  * Demonstrates the Chain of Responsibility design pattern by chaining multiple support levels.
  */
 public class Main {

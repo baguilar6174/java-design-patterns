@@ -3,6 +3,9 @@ package behavioral.chainresponsibility.pattern;
 import java.util.Objects;
 
 /**
+ * ----------
+ * Step 3
+ * ----------
  * A concrete handler that handles basic support requests.
  */
 public class BasicSupport extends BaseHandler {

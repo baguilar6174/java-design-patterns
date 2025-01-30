@@ -3,6 +3,9 @@ package behavioral.chainresponsibility.pattern;
 import java.util.Objects;
 
 /**
+ * ----------
+ * Step 5
+ * ----------
  * A concrete handler that handles expert-level support requests.
  */
 public class ExpertSupport extends BaseHandler {
