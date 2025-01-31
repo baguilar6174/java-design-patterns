@@ -216,7 +216,13 @@ Take care of effective communication and the assignment of responsibilities betw
 
 [View code](./src/behavioral/iterator)
 
-### Mediator
+### [Mediator](https://refactoring.guru/design-patterns/mediator)
+
+- Helps reduce messy dependencies between objects. Limits direct communication, making communication only through the mediator.
+- ***Useful when*** you need to reduce the complexity between objects.
+
+[View code](./src/behavioral/mediator)
+
 ### Memento
 ### Observer
 ### State
