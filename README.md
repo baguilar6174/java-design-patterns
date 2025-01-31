@@ -209,7 +209,13 @@ Take care of effective communication and the assignment of responsibilities betw
 
 [View code](./src/behavioral/command)
 
-### Iterator
+### [Iterator](https://refactoring.guru/design-patterns/iterator)
+
+- Allows you to scroll through the internal elements of a collection without exposing the internal structure of the collection.
+- ***Useful when*** you need to traverse a collection of elements regardless of how the elements are stored.
+
+[View code](./src/behavioral/iterator)
+
 ### Mediator
 ### Memento
 ### Observer
