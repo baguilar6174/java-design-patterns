@@ -223,7 +223,13 @@ Take care of effective communication and the assignment of responsibilities betw
 
 [View code](./src/behavioral/mediator)
 
-### Memento
+### [Memento](https://refactoring.guru/design-patterns/memento)
+
+- Allows to capture and externalize an internal state of an object, so that the object can be restored to that state later.
+- ***Useful when*** you need to save the state of an object in order to be able to return to it in the future.
+
+[View code](./src/behavioral/memento)
+
 ### Observer
 ### State
 ### Strategy
