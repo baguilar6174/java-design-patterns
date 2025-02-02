@@ -230,7 +230,13 @@ Take care of effective communication and the assignment of responsibilities betw
 
 [View code](./src/behavioral/memento)
 
-### Observer
+### [Observer](https://refactoring.guru/design-patterns/observer)
+
+- It establishes a one-to-many relationship between an object called the subject and other objects called observers that are automatically notified and updated by the subject when changes in its state occur. 
+- ***Useful when*** we need multiple objects to be aware of changes.
+
+[View code](./src/behavioral/observer)
+
 ### State
 ### Strategy
 ### Template method
