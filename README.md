@@ -237,7 +237,13 @@ Take care of effective communication and the assignment of responsibilities betw
 
 [View code](./src/behavioral/observer)
 
-### State
+### [State](https://refactoring.guru/design-patterns/state)
+
+- Allows an object to change its behavior when its internal state changes.
+- ***Useful when*** an object has a state-dependent behavior and must change its behavior at runtime.
+
+[View code](./src/behavioral/state)
+
 ### Strategy
 ### Template method
 ### Visitor
