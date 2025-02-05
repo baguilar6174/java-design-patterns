@@ -244,7 +244,13 @@ Take care of effective communication and the assignment of responsibilities betw
 
 [View code](./src/behavioral/state)
 
-### Strategy
+### [Strategy](https://refactoring.guru/design-patterns/strategy)
+
+- It defines a family of algorithms, encapsulates them and makes them interchangeable. 
+- ***Useful when*** you have a class that has a behavior that can change at runtime and you want to delegate the implementation responsibility to another class.
+
+[View code](./src/behavioral/strategy)
+
 ### Template method
 ### Visitor
 
