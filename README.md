@@ -259,7 +259,14 @@ Take care of effective communication and the assignment of responsibilities betw
 
 [View code](./src/behavioral/template)
 
-### Visitor
+### [Visitor](https://refactoring.guru/design-patterns/visitor)
+
+- Allows algorithms to be separated from the objects on which they operate. 
+- ***Useful when*** you need to add new operations to stable classes without changing their code.
+
+[View code](./src/behavioral/visitor)
+
+---
 
 ## Stay in touch
 
