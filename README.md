@@ -251,7 +251,14 @@ Take care of effective communication and the assignment of responsibilities betw
 
 [View code](./src/behavioral/strategy)
 
-### Template method
+### [Template method](https://refactoring.guru/design-patterns/template-method)
+
+- Defines the skeleton of an algorithm in an operation, delegating some steps to subclasses. 
+- Allows subclasses to redefine certain steps of an algorithm without changing its structure.
+- ***Useful when*** you have an algorithm that follows a sequence of steps and you want to allow subclasses to redefine some of those steps.
+
+[View code](./src/behavioral/template)
+
 ### Visitor
 
 ## Stay in touch
